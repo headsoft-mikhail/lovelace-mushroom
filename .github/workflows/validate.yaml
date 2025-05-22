@@ -10,7 +10,7 @@ jobs:
             - name: Checkout
               uses: actions/checkout@v2
             - name: Copy build to root
-              run: cp dist/mushroom.js
+              run: cp dist/mushroom.js .
             - name: HACS validation
               uses: "hacs/action@main"
               with:
